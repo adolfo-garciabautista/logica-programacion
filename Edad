@@ -1,0 +1,18 @@
+Algoritmo Mayoromenor
+	Definir edad Como Entero
+	Escribir 'Ingrese su edad'
+	Leer edad
+	Si edad<0 Entonces
+		Escribir 'Edad invalida'
+	SiNo
+		Si edad<12 Entonces
+			Escribir 'Usted es un niño'
+		SiNo
+			Si edad>=12 o edad<=17 Entonces
+				Escribir 'usted es adolescente'
+			SiNo
+				Escribir 'Usted es un adulto'
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
