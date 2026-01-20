@@ -6,7 +6,7 @@ Repositorio con ejercicios para aprender fundamentos de programación desde cero
 
 - Secuenciales  
 - Condicionales  
-- Ciclos (próximamente)
+- Ciclos
 
 ## 🎯 Objetivo
 
