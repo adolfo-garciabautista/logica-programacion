@@ -1,0 +1,41 @@
+Algoritmo menu
+	definir opcion, precio, descuento, total Como Real
+	descuento <- 0
+	Escribir "1.Descuento del 10%"
+	Escribir "2.Descuento del 20%"
+	Escribir "3.Descuento del 30%"
+	Escribir "4.Salir"
+	Escribir "eliga una opcion: "
+	leer opcion 
+	si opcion = 1 Entonces
+		Escribir "Ingrese precio de producto: "
+		leer precio
+		descuento <- precio * .10
+		total <- precio - descuento
+		escribir "Su total con descuento es: ", total
+		sino
+		si opcion = 2 Entonces
+			Escribir "Ingrese precio de producto: "
+			leer precio
+			descuento <- precio * .20
+			total <- precio - descuento
+			escribir "Su total con descuento es: ", total
+		sino
+		si opcion = 3 Entonces
+			Escribir "Ingrese precio de producto: "
+			leer precio
+			descuento <- precio * .30
+			total <- precio - descuento
+			escribir "Su total con descuento es: ", total
+		SiNo
+			Si opcion=4 entonces 
+				escribir "Gracias por usar la calculadora"
+			sino
+				escribir "OPCION NO VALIDA"
+			FinSi
+		FinSi
+		
+	FinSi
+	
+	FinSi
+FinAlgoritmo
