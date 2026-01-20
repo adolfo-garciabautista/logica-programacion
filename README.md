@@ -16,4 +16,4 @@ Desarrollar pensamiento lógico antes de pasar a:
 - ABAP (SAP)
 
 ## 👤 Autor
-Adoldo Garcia Bautidta
+Adolfo Garcia Bautista
