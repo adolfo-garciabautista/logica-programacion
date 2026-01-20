@@ -1,16 +1,19 @@
-# logica-programacion
-Ejercicios básicos de lógica de programación
+# 🧠 Lógica de Programación – PSeInt
 
-## Descripción
-Ejercicios básicos de lógica de programación usando pseudocódigo.
+Repositorio con ejercicios para aprender fundamentos de programación desde cero.
 
-## Contenido
-- Variables
-- Operadores
-- Condiciones
+## 📌 Contenido
 
-## Herramienta
-- PSeInt
+- Secuenciales  
+- Condicionales  
+- Ciclos (próximamente)
 
-## Objetivo
-Desarrollar pensamiento lógico para programación.
+## 🎯 Objetivo
+
+Desarrollar pensamiento lógico antes de pasar a:
+- Python  
+- SQL  
+- ABAP (SAP)
+
+## 👤 Autor
+Adoldo Garcia Bautidta
