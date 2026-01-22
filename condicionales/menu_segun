@@ -1,0 +1,18 @@
+Algoritmo menu
+	definir opcion Como Entero
+	escribir "1.Saludar"
+	escribir "2.Despedirse"
+	Escribir "3.Mostrar tu nombre"
+	Escribir "Elija una opcion: "
+	leer opcion 
+	segun opcion hacer
+		caso 1:
+			Escribir "Hola"
+		caso 2:
+			Escribir "Adios"
+		caso 3:
+			escribir "Adolfo Garcia bautista"
+		De Otro Modo:
+		 Escribir "opcion invalida"
+	FinSegun
+FinAlgoritmo
