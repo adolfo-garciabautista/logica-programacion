@@ -1,6 +1,6 @@
 # 🧠 Lógica de Programación – PSeInt
 
-Repositorio con ejercicios para aprender fundamentos de programación desde cero.
+Repositorio con ejercicios, miniproyectos y proyectos para aprender fundamentos de programación desde cero.
 
 ## 📌 Contenido
 
