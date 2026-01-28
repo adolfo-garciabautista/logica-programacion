@@ -1,63 +1,37 @@
 📋 Menú Interactivo en PSeInt
 📌 Descripción
 
-Este miniproyecto consiste en un menú interactivo desarrollado en PSeInt, cuyo objetivo es practicar e integrar las principales estructuras de control vistas en programación básica.
-
-El programa muestra un menú con distintas opciones y se mantiene en ejecución hasta que el usuario decide salir.
-
-🎯 Objetivos del proyecto
-
-Reforzar el uso de menús interactivos
-
-Practicar ciclos:
-
-Mientras
-
-Para
-
-Usar estructuras de decisión:
-
-Si / SiNo
-
-Segun
-
-Trabajar con:
-
-Contadores
-
-Acumuladores
-
-Entrada y salida de datos
+Programa desarrollado en PSeInt que implementa un menú interactivo para practicar estructuras básicas de control en programación.
 
 ⚙️ Funcionalidades
 
-El menú ofrece las siguientes opciones:
+Determinar si un número es par o impar
 
-1️⃣ Ingresar un número y determinar si es par o impar
-2️⃣ Mostrar los números del 10 al 1 usando un ciclo Para
-3️⃣ Sumar números ingresados por el usuario hasta que se introduzca 0
-4️⃣ Salir del programa
+Mostrar los números del 10 al 1
 
-🧠 Estructuras utilizadas
+Sumar números ingresados por el usuario hasta que se ingrese 0
 
-Mientras (para controlar el menú)
+Opción para salir del programa
 
-Para (para conteo descendente)
+🧠 Conceptos utilizados
 
-Segun (para selección de opciones)
+Ciclo Mientras
 
-Si / SiNo (para validación par/impar)
+Ciclo Para
 
-Variables enteras
+Estructura Segun
 
-Acumulador (sum)
+Condicionales Si / SiNo
 
-▶️ Cómo ejecutar
+Variables, contadores y acumuladores
 
-Abrir PSeInt
+▶️ Ejecución
 
-Cargar el archivo menu_interactivo.psc
-
+Abrir el archivo menu_interactivo.psc en PSeInt
 Ejecutar el algoritmo
 
-Seleccionar una opción del menú ingresando un número del 1 al 4
+Seleccionar una opción del menú
+
+✍️ Autor
+
+Adolfo — Ingeniería en Sistemas Computacionales
