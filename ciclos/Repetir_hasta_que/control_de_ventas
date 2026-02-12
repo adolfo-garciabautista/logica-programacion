@@ -1,0 +1,38 @@
+Algoritmo contrrol_DE_ventas
+	definir monto, totalVendido, ventasMayores, numeroVentas Como Entero
+	
+	totalVendido <- 0
+	ventasMayores <- 0
+	numeroVentas <- 0
+	
+	Repetir
+		
+		Escribir "Cual fue el monto total de la compra: "
+		leer monto 
+		
+		mientras monto < 0 hacer
+			Escribir "Error! monto invalido: " 
+			leer monto
+		FinMientras
+		
+		si monto > 0 Entonces
+			numeroVentas <- numeroVentas + 1
+			totalVendido <- totalVendido + monto 
+			
+			si monto >= 1000 Entonces
+				ventasMayores <- ventasMayores + 1
+			FinSi
+		FinSi
+		
+	Hasta Que monto = 0
+	
+	Escribir "Total vendido: ", totalVendido
+	escribir "Cuantas ventas fueron mayores a 1000: ", ventasMayores
+	
+	Si numeroVentas > 0 Entonces
+		Escribir "Promedio: ", totalVendido/numeroVentas
+	SiNo
+		Escribir "No hubo ventas"
+	FinSi
+	
+FinAlgoritmo
