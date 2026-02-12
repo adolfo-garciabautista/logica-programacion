@@ -1,0 +1,42 @@
+Algoritmo sensor_doble
+	definir alarmaActiva, sensorHumoDetectado, sensorMovimientoDetectado Como Logico
+	definir respuesta Como Caracter
+	
+	alarmaActiva <- falso 
+	sensorHumoDetectado <- falso 
+	sensorMovimientoDetectado <- falso 
+	
+	repetir 
+		escribir "Hay humo? (si/no)"
+		leer respuesta 
+		
+		mientras Minusculas(respuesta) <> "si" y Minusculas(respuesta) <> "no" hacer
+			Escribir "Error! Responda Si o No"
+			leer respuesta
+		FinMientras
+		
+		si Minusculas(respuesta) = "si" Entonces
+			
+			sensorHumoDetectado <- Verdadero
+		FinSi
+		
+		Escribir "Hay movimiento? (si/no)"
+		leer respuesta
+		
+		mientras Minusculas(respuesta) <> "si" y Minusculas(respuesta) <> "no" hacer
+			Escribir "Error! Responda Si o No"
+			leer respuesta
+		FinMientras
+		
+		si Minusculas(respuesta) = "si" Entonces
+			sensorMovimientoDetectado <- Verdadero
+		FinSi
+		
+		si sensorHumoDetectado y sensorMovimientoDetectado Entonces
+			alarmaActiva <- Verdadero
+		FinSi
+		
+	Hasta Que alarmaActiva 
+	
+	Escribir "Alarma activada"
+FinAlgoritmo
