@@ -1,0 +1,26 @@
+Algoritmo validacion_De_Acceso
+	definir contraseña Como Caracter
+	definir intentos Como Entero
+	definir accesoPermitido Como Logico
+	
+	accesoPermitido <- falso 
+	intentos <- 0
+	
+	Repetir
+		Escribir "Ingrese la contraseña: "
+		leer contraseña 
+		si contraseña = "Admin1023" Entonces
+			accesoPermitido <- verdadero 
+		SiNo
+			Escribir "Contraseña Incorrecta"
+			intentos <- intentos + 1
+		FinSi
+	Hasta Que accesoPermitido o intentos=3
+	
+	Si accesoPermitido Entonces
+		Escribir "Acceso concedido"
+	SiNo
+		Escribir "Cuenta bloqueada"
+	FinSi
+
+FinAlgoritmo
